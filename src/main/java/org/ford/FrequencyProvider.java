@@ -1,5 +1,6 @@
 package org.ford;
 
 public interface FrequencyProvider {
-    String findFrequency();
+    int[] findFrequency(int arr[]);
 }
+
